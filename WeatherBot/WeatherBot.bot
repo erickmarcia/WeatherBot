@@ -1,0 +1,26 @@
+{
+    "name": "WeatherBot",
+    "description": "",
+  "services": [
+    {
+      "type": "endpoint",
+      "appId": "microsoft-app-id",
+      "appPassword": "microsoft-password",
+      "endpoint": "https://tu-endpoint.azurewebsites.net/api/messages",
+      "name": "production",
+      "id": "El-ID-del-Bot"
+    },
+    {
+      "type": "endpoint",
+      "name": "development",
+      "endpoint": "http://localhost:3978/api/messages",
+      "appId": "",
+      "appPassword": "",
+      "id": "1"
+    }
+  ],
+    "padlock": "",
+    "version": "2.0",
+    "path": "D:\\2018\\Proyectos\\Demos\\LatamFest\\WeatherBot\\WeatherBot\\WeatherBot.bot",
+    "overrides": null
+}
